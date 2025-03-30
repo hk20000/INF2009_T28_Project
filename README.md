@@ -72,20 +72,16 @@ sudo apt install cmake -y
 ---
 
 ##  Running the System
-###  Run Speech-to-Text Transcription
-```bash
-python3 speech_to_sub.py
-```
+1️⃣ Setting Up the Dataset (image_capture.py)
 
-###  Run Real-Time Face Recognition
-```bash
-python3 face.py
-```
+Capturing images and organizing them into folders (changing the name variable in the code).
 
-###  Run Engagement Dashboard
-```bash
-streamlit run dashboard.py
-```
+
+2️⃣ Training the Model (model_training.py)
+
+Extracting facial encodings and saving them for recognition.
+
+3️⃣ Running Real-Time Recognition & Engagement Tracking (face.py, speech_to_sub.py, dashboard.py).
 
 
 ##  Methodology & Design Choices
