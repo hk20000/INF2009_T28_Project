@@ -30,7 +30,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install python3 python3-pip -y
 ```
 
-### 🎙 Setting Up Speech-to-Text Transcription
+###  Setting Up Speech-to-Text Transcription
 1️⃣ Install dependencies:
 ```bash
 pip3 install vosk pyaudio numpy
@@ -53,7 +53,7 @@ pip3 install pyaudio
 
 ---
 
-### 🎭 Setting Up Face Recognition & Dashboard
+###  Setting Up Face Recognition & Dashboard
 1️⃣ Update Raspberry Pi:
 ```bash
 sudo apt update && sudo apt full-upgrade -y
@@ -71,7 +71,7 @@ sudo apt install cmake -y
 
 ---
 
-## 🔧 Running the System
+##  Running the System
 ###  Run Speech-to-Text Transcription
 ```bash
 python3 speech_to_sub.py
@@ -88,16 +88,16 @@ streamlit run dashboard.py
 ```
 
 
-## 💡 Methodology & Design Choices
-### 📷 Face Recognition & Engagement Detection
+##  Methodology & Design Choices
+###  Face Recognition & Engagement Detection
 - **Library Used:** `face_recognition`
 - **Why?** Lightweight & accurate for real-time processing on Raspberry Pi.
 - **Expression Analysis:** Uses `mediapipe` for facial landmark detection.
 
-### 🗣 Speech-to-Text
+###  Speech-to-Text
 - **Library Used:** `Vosk`
 - **Why?** Offline speech recognition for efficiency & privacy.
 - **Model Used:** `vosk-model-small-en-us-0.15` (lightweight & optimized for Raspberry Pi).
 
-### 📊 Engagement Dashboard
+### Engagement Dashboard
 - **Built With:** `Streamlit` for real-time visualization.
