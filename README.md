@@ -86,3 +86,18 @@ python3 face.py
 ```bash
 streamlit run dashboard.py
 ```
+
+
+## 💡 Methodology & Design Choices
+### 📷 Face Recognition & Engagement Detection
+- **Library Used:** `face_recognition`
+- **Why?** Lightweight & accurate for real-time processing on Raspberry Pi.
+- **Expression Analysis:** Uses `mediapipe` for facial landmark detection.
+
+### 🗣 Speech-to-Text
+- **Library Used:** `Vosk`
+- **Why?** Offline speech recognition for efficiency & privacy.
+- **Model Used:** `vosk-model-small-en-us-0.15` (lightweight & optimized for Raspberry Pi).
+
+### 📊 Engagement Dashboard
+- **Built With:** `Streamlit` for real-time visualization.
