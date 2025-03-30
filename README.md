@@ -13,9 +13,9 @@ This project is designed as a real-time classroom assistant to help teachers mon
 ---
 
 ## Items needed:
-1. Raspberry Pi 4 (or later) with Raspberry Pi OS (64-bit recommended).
+1. Raspberry Pi 4  with Raspberry Pi OS (64-bit recommended).
 
-2. Microphone (USB or 3.5mm jack) for Speech Recognition.
+2. Microphone (optional if webcam comes with inbuilt microphone) for Speech Recognition.
 
 3. Webcam (e.g., Logitech C270) for Face Recognition.
 
